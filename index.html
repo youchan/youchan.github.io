@@ -3,8 +3,17 @@
 <head>
 <meta charset="UTF-8"/>
 <title>youchan.org</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-combined.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 <style>
+.navbar {
+  margin-top: 120px;
+}
+
+.content {
+  margin-top: 40px;
+}
+
 .top_info {
   font-size: 200%;
   margin: 24px;
@@ -14,34 +23,39 @@
   color: #000;
 }
 
-.top_info img {
-   float: left;
-}
-
-.top_info div {
-   vertical-align: center;
-}
-
-.clear {
-    clear: both;
-}
 
 </style>
 </head>
 <body>
-  <header id="head">
-    <img src="youchan_square.jpg"/>
-    <hgroup><h1>youchan.org</h1></hgroup>
-  </header>
+  <div id="header">
+    <div class="container">
+        <h1>youchan.org</h1>
+    </div>
+  </div>
 
-  <div class="top_info"><a href="geekcafe.html"><img src="geekcafe.jpg" height="64"/><div>週末バーの店長を始めました！！！</div></a></div>
-
-  <div class="clear"/>
-  <ul>
-  <li><a href="http://twitter.com/youchan">twitter@youchan</a></li>
-  <li><a href="http://www.facebook.com/you.osaki">facebook</a></li>
-  <li><a href="http://youchan.hatenablog.com/">blog</a></li>
-  <li><a href="http://d.hatena.ne.jp/Youchan">hatena dialy</a></li>
-  </ul>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+        </a>
+        <a src="/" class="brand"><img src="youchan_square.jpg" width="24" height="24"/></a>
+        <ul class="nav nav-collapse">
+          <li class="active"><a href="/">Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="container content">
+    <div class="top_info"><a href="geekcafe.html"><div>週末バーの店長を始めました！！！<img src="geekcafe.jpg" width="36" height="24"/></div></a></div>
+ 
+    <ul>
+      <li><a href="http://twitter.com/youchan">twitter@youchan</a></li>
+      <li><a href="http://www.facebook.com/you.osaki">facebook</a></li>
+      <li><a href="http://youchan.hatenablog.com/">blog</a></li>
+      <li><a href="http://d.hatena.ne.jp/Youchan">hatena dialy</a></li>
+    </ul>
+  </div>
 </body>
 </html>

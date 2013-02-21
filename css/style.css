@@ -1,0 +1,19 @@
+div#header h1 {
+  font-size:3.2em;
+  font-family:"PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-weight:normal;
+  line-height:1.2em;
+  position: relative;
+}
+
+body > #header{
+  font-size:1em;
+  padding-top:1.5em;
+  padding-bottom:1.5em;
+  padding-left:5em;
+  padding-right:5em;
+  background-color:#333;
+  color:#aaa;
+  border-bottom:solid 8px #811;
+}
+
