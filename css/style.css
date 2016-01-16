@@ -22,13 +22,31 @@ body {
 .navbar img.icon {
   float: right;
   padding: 10px;
-  width: 40px;
-  margin-top: 16px;
-  border-radius: 40px;
+  width: 80px;
+  margin-top: 48px;
+  border-radius: 80px;
 }
 
 .navbar .title {
   padding: 12px;
   font-size: 180%;
   margin: 0;
+}
+
+.content ul {
+  list-style-type: none;
+}
+
+.content li {
+  padding: 8px;
+  border-left: solid 20px #f90;
+  border-right: solid 20px #f90;
+  border-bottom: solid 1px #f90;
+  border-top: solid 1px #f90;
+  margin-bottom: 20px;
+}
+
+.content a {
+  text-decoration: none;
+  color: black;
 }
